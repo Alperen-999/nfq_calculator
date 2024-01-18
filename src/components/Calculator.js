@@ -26,7 +26,6 @@ const Calculator = () => {
         }
         //Nötig, um andere Buttons zu verwenden, wie unter anderem Operatoren oder Kommazahlen
         else {
-            //Operatoren handeln
             setValue((prevValue) => prevValue + buttonValue);
         }
     };
