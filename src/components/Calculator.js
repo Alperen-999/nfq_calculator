@@ -40,6 +40,7 @@ const Calculator = () => {
                 </div>
                 <div className="calculator-body">
                     <Button handleButtonClick={handleButtonClick}/>
+
                 </div>
             </div>
         </div>
